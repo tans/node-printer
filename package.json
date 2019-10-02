@@ -1,8 +1,8 @@
 {
   "name": "printer",
   "description": "Node.js printer bindings",
-  "version": "0.3.0",
-  "homepage": "http://github.com/tojocky/node-printer",
+  "version": "0.3.1",
+  "homepage": "http://github.com/tans/node-printer",
   "author": {
     "name": "Ion Lupascu",
     "url": "http://program-support.co.uk/",
@@ -13,14 +13,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tojocky/node-printer.git"
+    "url": "git://github.com/tans/node-printer.git"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-jshint": "^0.11.0",
-    "grunt-node-gyp": "git://github.com/tojocky/grunt-node-gyp.git",
-    "grunt-nw-gyp": "git://github.com/tojocky/grunt-nw-gyp.git",
+    "grunt-node-gyp": "git://github.com/tans/grunt-node-gyp.git",
+    "grunt-nw-gyp": "git://github.com/tans/grunt-nw-gyp.git",
     "nodeunit": "*"
   },
   "engines": {
@@ -34,7 +34,7 @@
   "binary": {
     "module_name": "node_printer",
     "module_path": "./lib/",
-    "host": "https://github.com/tojocky/node-printer/releases/download/",
+    "host": "https://github.com/tans/node-printer/releases/download/",
     "remote_path": "{version}"
   },
   "licenses": [
